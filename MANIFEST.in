@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bep_customization *.css
+recursive-include bep_customization *.csv
+recursive-include bep_customization *.html
+recursive-include bep_customization *.ico
+recursive-include bep_customization *.js
+recursive-include bep_customization *.json
+recursive-include bep_customization *.md
+recursive-include bep_customization *.png
+recursive-include bep_customization *.py
+recursive-include bep_customization *.svg
+recursive-include bep_customization *.txt
+recursive-exclude bep_customization *.pyc
